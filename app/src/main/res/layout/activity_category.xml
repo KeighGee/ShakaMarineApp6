@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/dolph"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:elevation="4dp"
+        android:layout_margin="5dp"
+        android:background="#21132143">
+
+        <TextView
+            android:id="@+id/restaurants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/restaurants"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#21132143"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:elevation="4dp"
+        android:background="#21132143">
+
+        <TextView
+            android:id="@+id/entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#21132143"
+            android:gravity="center_vertical"
+            android:text="@string/entertainment"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:elevation="4dp"
+        android:background="#21132143">
+
+        <TextView
+            android:id="@+id/attractions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/attractions"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#21132143"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:elevation="4dp"
+        android:background="#21132143">
+
+        <TextView
+            android:id="@+id/accommodation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/accommodation"
+            android:textAlignment="center"
+            android:background="#21132143"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+
+</LinearLayout>

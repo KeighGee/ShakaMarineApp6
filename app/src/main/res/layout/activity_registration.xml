@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.shakamarineapp6.registration">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:text="USER REGISTRATION"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnL"
+        android:layout_alignEnd="@+id/btnL" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/editTextPassword"
+        android:layout_alignStart="@+id/editTextPassword" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="REGISTER"
+        android:onClick="onClickbtnR"
+        android:textColor="#0AE0EA"
+        android:background="#54864545"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_alignLeft="@+id/btnL"
+        android:layout_alignStart="@+id/btnL"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp" />
+
+    <Button
+        android:id="@+id/btnL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="ALREADY A USER? LOGIN"
+        android:onClick="onClickbtnL"
+        android:textColor="#0AE0EA"
+        android:background="#54864545"
+        android:layout_below="@+id/btnR"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

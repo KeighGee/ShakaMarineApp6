@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Shaka Marine App6</string>
+    <string name="welcome">WELCOME TO uSHAKA MARINE</string>
+    <string name="subtext">Tap Here To Continue</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="attractions">Attractions</string>
+
+
+    <string name="moyo_restaurant">Moyo Restaurant</string>
+    <string name="nadias_restaurant">Nadias Restaurant</string>
+    <string name="piatto_restaurant">Piatto Restaurant</string>
+    <string name="rocco_mamas">Rocco Mamas</string>
+    <string name="cargo_hold_restaurant">Cargo Hold Restaurant</string>
+
+
+    <string name="dolphin_stadium">Dolphin Stadium</string>
+    <string name="shark_diving">Shark Diving</string>
+    <string name="fun_world"> Fun World</string>
+    <string name="bike_saddle"> Bike Saddle</string>
+    <string name="aquarium">Aquarium</string>
+
+
+    <string name="botanic_garden">Botanic Garden</string>
+    <string name="science_museum">Science Museum</string>
+    <string name="bird_park">Bird Park</string>
+    <string name="moses_mabida_stadium">Moses Mabida Stadium</string>
+    <string name="church">St Pauls Church</string>
+
+
+    <string name="balmoral_hotel">Balmoral Hotel</string>
+    <string name="hilton_hotel">Hilton Hotel</string>
+    <string name="gooderson_hotel">Gooderson Hotel</string>
+    <string name="protea_hotel">Protea Hotel</string>
+    <string name="waterfront_hotel">Waterfront Hotel</string>
+
+    <string name="title_activity_primary">PrimaryActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="nadias">\@string/cargohold</string>
+</resources>
